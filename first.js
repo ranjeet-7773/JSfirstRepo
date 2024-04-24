@@ -20,7 +20,7 @@ else{
 
 
 
-/*let gameNum=25;
+let gameNum=25;
 let num = prompt("enter a number");
 let count=0; 
 while(num != gameNum){
@@ -29,8 +29,8 @@ while(num != gameNum){
 
 }
 console.log("total attempt = " , count);
-console.log("congratulations You win"); */
+console.log("congratulations You win"); 
 
-let userName=prompt("enter your username");
+/*let userName=prompt("enter your username");
 let output= "@"+userName+userName.length;
-console.log(output);
+console.log(output); */
