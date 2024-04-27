@@ -14,19 +14,20 @@
 //ToggleButton
 
 let modeBtn = document.querySelector("#mode");
+let body = document.querySelector("body");
 let currentMode = "Light";
 modeBtn.addEventListener("click" , ()=>{
     
     if(currentMode==="Light"){
         currentMode="dark";
-        
-        document.querySelector("body").style.backgroundColor="black";
-        let h2=document.querySelector("dark");
-        console.log("This is dark mode");
+        body.classList.add("dark");
+        body.classList.remove("light");
+
     }
     else{
         currentMode="Light";
-        document.querySelector("body").style.backgroundColor="white";
+        body.classList.add("light");
+        body.classList.remove("dark");
     }
     console.log(currentMode);
 } );
